@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* OntelStudio */
+
+input, select, textarea {
+	border:0 transparent; border:1px solid #999; padding:4px 5px; margin-right:5px;
+	-webkit-border-radius:4px; -moz-border-radius:4px; -khtml-border-radius:4px;
+	behavior: url("images/border-radius.htc.htc");
+	font-size:14px; color:#444; outline:none;}
+label {margin-right:5px;}
+label.block {display:block;}
+.label label {margin:0; padding-top:4px;}
+.label, .input {display:inline; float:left;}
+.label {text-align:right; padding:5px 0; margin-right:10px; width:120px;}
+input .240 {width:240px;}
+.input select {width:250px;}
+.full input, .full textarea  {width:400px;}
+.full select {width:410px;}
+#contact .full input, #contact .full textarea  {width:400px;}
+#contact .full select {width:410px;}
+.label.disabled {}
+.input.disabled, .label.disabled {padding-top:4px;}
+.input input.small {}
+.input img {margin-right:10px;}
+input[type="file"] {display:block; margin-bottom:5px;}
+label.currency {color:#777; width:50px;}
+
+table tr td img {margin-right:10px;}
+table tr td textarea {width:96%;}
+input[type="radio"], input[type="checkbox"] {border:none;}
+span.required_mark {color:#F00; font-size:20px; line-height:13px;}
+input.checkbox {border:none; width:12px;}
+
+button, a.link_button {
+	border:1px solid #999;
+	 
+	 -webkit-border-radius:3px; -moz-border-radius:3px;
+	background:url(../images/submit_button.png) 0 -72px; color:white;
+	display:inline-block; height:26px; line-height:24px; padding:0 15px;
+	margin:20px 5px 10px 0;}
+
+.search button { margin:0; margin-top:2px;}
+
+button:hover, a.link_button:hover {background-position:0 -96px; cursor:pointer;}
+button:active, a.link_button:active {background-position:0 -120px;}
+
+a.link_button {height:24px;}
+button.blue_bt {background-position:0 0;}
+button.blue_bt:hover {background-position:0 -24px;}
+
+button.right {float:right;}
+
+.contact_form {margin-bottom:20px;}
+
+.row.form {margin-bottom:5px;}
+
+.date_in, .date_out {display:inline}
+.date_in img, .date_out img {margin-left:5px;}
+.date_in input, .date_out input {width:240px;}
+.date_in {float:left;} .date_out {float:left;}
+.date_out { margin-left:40px;}
+
+.form .input {width:600px;}
+ 
+.input .dateinput { width:150px;}
+
+.notification .row {text-align:center;}
+.notification .row img {padding-bottom:20px;}

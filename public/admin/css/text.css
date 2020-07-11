@@ -1,0 +1,78 @@
+/*
+	960 Grid System ~ Text CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	font: 13px/1.5 "Arial", Helvetica, sans-serif;
+}
+
+a:focus {
+	outline: 1px dotted invert;
+}
+a {
+	color:#0064FF; text-decoration:none;}
+
+a:hover {color:#ff6600;}
+
+a.on {color:#999;}
+
+hr {
+	border: 0 #ccc dotted;
+	border-top-width: 1px;
+	clear: both;
+	height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset {margin-bottom: 20px;}
+
+h1 {font-size: 24px; font-family:Georgia, "Times New Roman", Times, serif; color:#690; font-weight:normal;
+}
+
+h2 {
+	font-size: 22px;
+}
+h2.page_title {font-size:24px; font-family:Georgia, "Times New Roman", Times, serif; color:#0046FF; font-weight:normal;}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 16px; margin-bottom:10px;
+}
+
+h6 {
+	font-size: 14px; margin-bottom:10px;
+}
+
+h1,h2,h3,h4,h5,h6 {color:#0064FF;}
+h6, h6 a {color:#030; font-size:13px; -webkit-transition:color 0.4s ease-out; -moz-transition:color 0.4s ease-out;}
+h6 span {display:inline; float:right;}
+h6 span a {font-size:12px; font-weight:normal; color:#0064FF}
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+	list-style: decimal;
+}
+
+ul {
+	list-style:none;
+}
+
+li {
+	margin-left: 30px;
+}
+

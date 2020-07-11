@@ -1,0 +1,47 @@
+* {margin:0; padding:0; outline:0;}
+button, a.link_button {
+	border:0; margin: 10px 5px 10px 0px; padding:0;}
+	
+.search button { margin-top:0;}
+input[type="radio"], input[type="checkbox"] {border:none;}
+.footer_menu ul li {height:20px; margin:0; margin-left:10px; padding:0;}
+.footer_menu ul li a {padding:2px 0;}
+button.right {}
+
+#main_nav ul li a img {margin-top:18px;}
+.slide_nav {position:absolute; z-index:8888; left:20px;}
+a#prev_bt {behavior:url(../images/iepngfix.htc); background:url(../images/frontend/prev_btn.png) no-repeat;}
+a#prev_bt:hover {background-position:0px -105px;}
+
+.splash_reserve {
+	position:absolute; right:25px; top:45px; z-index:9999;
+	height:330px; width:290px; background:url(../images/frontend/splash_reserv_bg.gif) no-repeat top;
+	filter: alpha(opacity='87'); }
+
+.splash_reserve ul li {margin:0;}
+.splash_reserve ul li {display:inline; float:left;}	
+.splash_reserve ul li a.package_tab, .splash_reserve ul li a.vila_tab {
+	font-weight:bold; color:#555;
+	background:url(../images/frontend/splash_reserv_bg.gif) no-repeat 0 100%;
+	display:inline-block; height:30px; line-height:30px; margin-top:5px; text-align:center;}
+.splash_reserve ul li a.package_tab {width:93px;}
+.splash_reserve ul li a.vila_tab {width:63px; margin-left:7px;}
+.splash_reserve ul li a.package_tab:hover, .splash_reserve ul li a.vila_tab:hover,
+.splash_reserve ul li a.package_tab.active, .splash_reserve ul li a.vila_tab.active
+{background:none; color:#060;}
+
+/*=============================================================================================================================== ACCORDION */
+#featured_pack {/*background-color:#FFF;*/ width:600px; height:205px; overflow:hidden; margin-bottom:30px; position:relative;}
+#featured_pack ul li {
+	display:block; background-color:#FFF; float:left; margin:0; height:205px; width:30px; overflow:hidden; }
+#a1 {width:440px;}
+.content_pack_5, .content_pack_4, .content_pack_3, .content_pack_2, .content_pack_1 {
+	background:#FFF url(../images/frontend/handler_accordion.jpg) no-repeat left; height:205px; padding-left:40px; padding-top:205px; padding-right:10px; position:relative;}
+.content_pack_5 {background-position:0px -820px;}
+.content_pack_4 {background-position:0px -615px; }
+.content_pack_3 {background-position:0px -410px;}
+.content_pack_2 {background-position:0px -205px;}
+.content_pack_1 {background-position:0px 0px;}
+#featured_pack ul li .thumbnail {/*display:inline-block; float:left; */width:200px; position:absolute; left:40px; top:5px;}
+#featured_pack ul li .desc {/*display:inline-block; float:left; */width:220px; position:absolute; left:250px; top:5px;}
+#featured_pack button {margin:0;}

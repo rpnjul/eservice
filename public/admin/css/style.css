@@ -1,0 +1,161 @@
+/*================================================================================================================================ Admin_style by: ontelstudio.com */
+body { background:url(../images/header_bg.gif) repeat-x top; width:100%; min-width:980px;}
+.col_1, .col_2, .col_3, .col_4, .col_5, .col_6 {}
+.col_1 {width:40px}
+.col_2 {width:60px}
+.col_3 {width:80px}
+.col_4 {width:100px}
+.col_5 {width:120px}
+.col_6 {width:140px}
+.col_5x {width:260px;}
+.input .col_6 {float:left;}
+
+/*================================================================================================================================ HEADER */
+#header {height:120px;}
+#header h1 {display:inline; float:left; width:90px; height:120px; margin-bottom:0; margin-left:20px;}
+#header h1 a {display:block; height:120px; width:90px; background:url(../images/logo.png) no-repeat top left;}
+#header h1 span {display:none;}
+#header .info {display:inline; float:left; margin-left:20px; margin-top:30px;}
+#header .menu {display:inline; float:right !important; margin-right:20px; margin-top:60px; }
+#header .menu ul {height:28px; padding-left:25px;}
+#header .menu ul li {display:inline; float:left;}
+#header .menu ul li a {height:28px; line-height:28px;}
+
+/*================================================================================================================================ BREADCRUMBS */
+#breadcrumbs {height:28px; border-top:1px solid #DDD; border-bottom:1px solid #DDD; min-width:980px; margin-bottom:10px;}
+#breadcrumbs ul {height:28px; margin:0;} 
+#breadcrumbs ul li {float:left; margin-left:10px; background:url(../images/crumbs_gap.gif) no-repeat 100% 5px;}
+#breadcrumbs ul li.selected {font-weight:bold; color:#888;}
+#breadcrumbs ul li a, #breadcrumbs ul li.selected {display:inline-block; height:28px; line-height:28px; padding-right:10px;}
+#breadcrumbs ul li a:hover {}
+
+/*================================================================================================================================ SIDE MENU */
+#side_menu {width:170px; float:left; margin-left:-100% /*position:absolute;*/}
+#side_menu .row {margin:0;}
+#side_menu h6 {display:block; height:30px; line-height:30px; padding-left:10px; margin:0; text-transform:capitalize; border-bottom:1px dotted #bee092;}
+#side_menu h6 a {display:block; height:30px; line-height:30px; background:url(../images/h6selected1.gif) no-repeat 145px 12px;}
+#side_menu h6 a.selected {background:url(../images/h6selected2.gif) no-repeat 145px 14px;}
+#side_menu h6 a.no_sub {background:none;}
+#side_menu h6:hover { cursor:pointer; color:#FFF;}
+#side_menu ul {margin-bottom:0; padding-bottom:20px;}
+#side_menu ul li {margin-left:10px;}
+#side_menu ul li a {
+    -webkit-border-top-left-radius:7px; -webkit-border-bottom-left-radius:7px;
+    -moz-border-top-left-radius:7px; -moz-border-bottom-left-radius:7px;
+    -khtml-border-top-left-radius:7px; -khtml-border-bottom-left-radius:7px;
+    display:block; height:30px; line-height:30px; padding-left:25px;}
+#side_menu ul li a:hover, #side_menu ul li a.active {background-color:#7798EF; color:#FFF;}
+0064FF
+/*================================================================================================================================ 2 BLOCK */
+#main_container {position:relative; margin:0 auto; background:url(../images/side_menu_bg.jpg) repeat-y left; margin-bottom:20px;}
+#side_menu, #main_content {display:inline;}
+#main_content {float:left !important; width:100%;/* min-width:870px; padding-left:170px;*/}
+.content_inner {
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -khtml-border-radius:10px;
+    margin:0px 10px 0px 170px; padding:10px; min-height:400px; background-color:#7798EF;}
+.stage {
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -khtml-border-radius:4px;
+    background-color:white; padding:20px; min-height:380px;}
+.block_2 {min-width:800px;}
+.block {display:inline; float:left; width:46%; margin-right:20px;}
+.block .label {padding:0; font-weight:bold; color:#000;}
+
+#sidebar_right {width:260px; float:right;}
+#admin_book .main_inner {margin-right:300px;}
+
+.addedit_content {border:1px solid #DDD; padding:20px;}
+
+/*================================================================================================================================ Table */
+table {border-top:1px solid #CCC; border-right:1px solid #CCC; width:100%;}
+table tr th, table tr td {border-left:1px solid #CCC; border-bottom:1px solid #CCC; padding:4px; vertical-align:top;}
+table tr th {background-color:#0046FF; color:#FFF;  text-align:left;}
+table tr th.very_small_table {width:50px;}
+table tr th.small_table {width:100px;}
+table tr {background-color:#f8f8f8;}
+table tr td img {float:left;}
+table tr td.colspan_table {padding:0;}
+table tr td.colspan_table table tr td {border:none;}
+table tr td table {border:none; margin:0;}
+table tr td table tr {background-color:transparent;}
+.altrow {background-color:#f0f1f2;}
+.table_menu { margin-bottom:20px;}
+.table_menu span {color:#690;}
+
+table button {margin:0;}
+
+/*================================================================================================================================ error_msg */
+.error_msg, .success_msg, .warn_msg {-webkit-border-radius:5px; -moz-border-radius:5px; margin-bottom:20px; padding:10px;}
+.error_msg span, .success_msg span, .warn_msg span { padding-left:30px; min-height:20px; display:block;}
+.error_msg {color:#C00; border:2px solid #eb8b8b; background-color:#ffe9e3;}
+.error_msg span {background:url(../images/error.png) no-repeat top left;}
+.success_msg {color:#030; border:2px solid #88ce7f; background-color:#dcf5c3;}
+.success_msg span {background:url(../images/success.png) no-repeat top left;}
+.warn_msg {color:#C00; border:2px solid #f7d89b; background-color:#FFC;}
+.warn_msg span {background:url(../images/warning.png) no-repeat top left;}
+.error-message {color: #EE0000}
+/*================================================================================================================================ Search, Sorter, OPTION, PAGINATION */
+.search input {float:left;}
+.search,.sorter,.option {display:inline;}
+.sorter,.search {float:left; margin-right:10px;} .option {float:right;}
+.sorter p {margin:0; height:20px; line-height:20px; margin-top:5px; margin-left:20px;}
+.sorter p a {margin-right:40px;}
+
+.option a {height:20px; line-height:20px; display:inline-block;}
+
+li.edit, li.delete, li.up, li.down, li.up_disabled, li.down_disabled, li.approve, li.unapprove {
+    /*background:url(../images/buttons.png) no-repeat;*/ display:block; height:20px; float:left;}
+.add { margin-top:5px; min-height:20px;}
+a.add {background:url(../images/buttons.png) no-repeat 0px -20px; margin-left:20px; padding-left:25px;}
+a.add:hover {background-position:0px top;}
+.input a.add {float:none; display:inline-block; margin-left:10px;}
+
+.input li.unapprove {margin-top:5px;}
+li.edit, li.delete, li.up, li.down, li.approve, li.unapprove, li.up_disabled, li.down_disabled {margin-left:0; margin-right:10px; width:20px;}
+li.edit a, li.delete a, li.up a, li.down a, li.approve a, li.unapprove a,
+li.up_disabled, li.down_disabled {display:block; height:20px; line-height:20px; background:url(../images/buttons.png) no-repeat;}
+
+li.edit a {background-position:0px -100px;} 	li.edit a:hover {background-position:0px -80px;}
+li.delete a {background-position:0px -60px;} 	li.delete a:hover {background-position:0px -40px;}
+li.up a {background-position:0px -140px;} 		li.up a:hover {background-position:0px -120px;} 
+li.down a {background-position:0px -180px;} 	li.down a:hover {background-position:0px -160px;}
+li.approve a {background-position:0px -260px;}	li.approve a:hover {background-position:0px -240px;}
+li.unapprove a {background-position:0px -300px;}	li.unapprove a:hover {background-position:0px -280px;}
+
+li.up_disabled {background-position:0px -220px;}
+li.down_disabled {background-position:0px -200px;}
+
+li.edit a span, li.delete a span, li.up a span, li.down a span, li.up_disabled span, li.down_disabled span, li.approve a span, li.unapprove a span {
+    font-size:10px; line-height:normal; background-color:#FFC; border:1px solid #c1b19e;
+    margin-left:-9999px; margin-top:-12px; padding:1px 3px; position:absolute;}
+
+li.edit a:hover span, li.delete a:hover span, li.up a:hover span, li.down:hover a span, li.approve:hover a span, li.unapprove:hover a span {
+    color:#630; margin-left:5px; margin-top:-12px;}
+
+.action {float:left;}
+.pagination {float:right; margin-bottom:10px; display:block;}
+.pagination ul li {float:left; margin:0;}
+.pagination ul li.active {padding:0px 5px; font-weight:bold;}
+.pagination a {padding:2px 5px; background:white; border:1px solid #e4d2bc; margin:1px;}
+.pagination a:hover {border-color:#F60;}
+.pagination a.prev-next {background:none; border:none;}
+
+
+/*================================================================================================================================ FOOTER */
+#footer {background-color:white; border-top:5px solid #CCC; height:100%; padding-top:10px; min-width:980px; text-align:center; height:100px;}
+
+div.content { float:left; display:inline;}
+
+#img-box {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E6E6E6;
+    color: #444444;
+    float: left;
+    line-height: 16px;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    width: 100px;
+}

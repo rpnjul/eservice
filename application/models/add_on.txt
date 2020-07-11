@@ -1,0 +1,36 @@
+<?php
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+class Add_on extends CI_Model {
+
+    var $table = 'order_details';
+
+    function __construct() {
+        parent::__construct();
+    }
+
+	 function create_add() {
+		$date = new \Datetime('now');
+        $data = array(
+			'date' => $date,
+			'username' => $this->input->post('username'),
+			'category' => $this->input->post('category'),
+			'stok_name' => $this->input->post('name'), 
+			'stok_price' => $this->input->post('stok_price'),
+			'qty' => $this->input->post('qty'),
+            'order_id' => $this->input->post('order_id'),
+        );
+
+        $this->db->insert($this->table, $data);
+        if ($this->db->affected_rows() == 1) {
+
+            return TRUE;
+        }
+        return FALSE;
+    }
+
+}
+?>

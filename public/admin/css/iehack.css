@@ -1,0 +1,19 @@
+* {margin:0; padding:0; outline:0;}
+button, a.link_button {
+	border:0; margin: 10px 5px 10px 0px; padding:0;}
+	
+.search button { margin-top:0;}
+input[type="radio"], input[type="checkbox"] {border:none;}
+.footer_menu ul li {height:20px; margin:0; margin-left:10px; padding:0;}
+.footer_menu ul li a {padding:2px 0;}
+button.right {}
+
+.slide_nav {position:absolute; z-index:20; bottom:40px; left:20px;}
+
+#content_slider .rowBand a {margin:0; padding:0;}
+#content_slider .rowBand ul li {margin:0; padding:0;}
+#content_slider {
+margin-right: 10px;
+width: 340px;
+}
+#package_detail .desc {width:300px;}

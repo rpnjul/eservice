@@ -1,0 +1,25 @@
+Toko Online dengan CodeIgniter 2.0.2
+
+Fitur-fitur yang akan dikembangkan pada Toko Online ini adalah sebagai berikut
+
+Admin:
+Login Admin
+Edit Profile dan Akun
+Pengaturan Kategori
+Pengaturan Produk
+Pengaturan Halaman
+Pengaturan Pemesanan
+Pengaturan Pembayaran
+dll
+
+
+
+User:
+Login User
+Browse Produk
+Shopping Cart
+Paypal Payment
+Konfirmasi Pemabayaran
+Order History
+Edit Profile dan Akun
+dll
